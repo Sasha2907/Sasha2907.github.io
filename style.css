@@ -1,0 +1,163 @@
+@import url(styleAv.css);
+    .vizitka_text{
+        margin-left: 700px;
+    }
+
+    .Conteiner {
+        margin-left: 700px;
+        border: 5px solid red;
+        padding: 10px;
+        width: 480px;
+    }
+
+    .kluch_nav{
+        margin-left: 250px;
+        width: 1000px;
+        position: relative
+    }
+
+    .kluch_nav b{
+        position: absolute;
+        left: 50%;
+        top:10%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%)
+    }
+
+    .dostiz{
+        margin-left: 250px;
+        width: 1000px;
+        position: relative
+    }
+    .dostiz b{
+        position: absolute;
+        left: 50%;
+        top:10%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%)
+    }
+
+    .opit{
+        margin-left: 250px;
+        width: 1000px;
+        position: relative
+    }
+
+    .opit b{
+        position: absolute;
+        left: 50%;
+        top:20%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%)
+    }
+
+    .obraz{
+        margin-left: 250px;
+        width: 1000px;
+        position: relative;
+    }
+
+    .obraz b{
+        position: absolute;
+        left: 50%;
+        top:20%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%)
+    }
+
+    .uvlech{
+        margin-left: 250px;
+        width: 1000px;
+        position: relative
+    }
+    
+    .uvlech b{
+        position: absolute;
+        left: 50%;
+        top:10%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%)
+    }
+
+    .games{
+        margin-left: 250px;
+        width: 1000px;
+        position: relative
+    }
+
+    .games b{
+        position: absolute;
+        left: 50%;
+        top:10%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%)
+    }
+
+    .favMuz{
+        margin-left: 250px;
+        width: 1000px;
+        position: relative
+    }
+
+    .favMuz b{
+        position: absolute;
+        left: 50%;
+        top:2%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%)
+    }
+
+    .imgKishlak{
+        width:100px; 
+        height:100px; 
+        float: left;
+    }
+
+    /*.vidioKishlak{
+        width:640px;
+        height:360px; 
+    }*/
+    html{
+        background-color: black;
+        color:white;
+        font-family: 'Roboto',sans-serif;
+    }
+
+    #table{
+        text-align: center;
+        padding: 10px 20px;
+        border: 3px solid #001c3a;
+        background-color: rgb(0, 0, 0);
+        max-width: 400px;
+        margin-left: 740px;
+        margin-left: 250px;
+        margin-bottom: 20px;
+    }
+
+    td{
+        background-color: rgb(54, 0, 9);
+        border: 3px solid #245488;
+    }
+    .links{
+        display: flex;
+        justify-content: space-around;
+        margin: 20px 20% 0 20%;
+    }
+    .links a{
+        color: white;
+        text-decoration: none;
+        font-size: 30px;
+        font-weight: 700;
+    }
+    .link_text{
+        text-align: center;
+        margin-top: 20px;
+        font-size: 40px;
+    }
+
+    @font-face {
+        font-weight: 400; /* Соответствует значению normal */
+        font-family: Roboto;
+        src: url("fonts/Roboto/Roboto-Thin.ttf");
+    }
+    

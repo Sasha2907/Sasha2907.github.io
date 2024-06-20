@@ -1,0 +1,149 @@
+.partners{
+    display: grid;
+    height: 300px;
+    grid-template-columns: 30% 70%;
+    gap:5%
+}
+.partners_inf{
+    margin-left: 20%;
+    display: grid;
+    gap: 10px;
+    grid-template-rows: auto auto auto 40px;
+    /*align-content: center;
+    place-items: center;*/
+}
+.partners_inf_img{
+    height: 50px;
+}
+.partners_inf_h{
+    font-size: 30px;
+    font-weight: 800;
+}
+.partners_inf_text{
+    color:gray;
+    font-size: 14px;
+}
+
+.partners_inf_btn{
+    background-color: red;
+    color: white;
+    height: 100%;
+    width: 80%;
+    border: none;
+}
+
+.partners_sponsors{
+    display: grid;
+    gap:10%;
+    margin-right: 5%;
+    grid-template-rows: 50% 50%;
+}
+.platinum_sponsors{
+    display: grid;
+    grid-template-rows: 20% 80%;
+}
+.platinum_sponsors_text{
+    font-size: 20px;
+    font-weight: 900;
+}
+.platinum_sponsors_btns{
+    display: grid;
+    gap:2%;
+    grid-template-columns: 240px 240px 240px;
+}
+.platinum_sponsors_btn1{
+    width: 100%;
+    max-width: 240px;
+    height: 100%;
+    border-color: gray;
+    max-height: 94px;
+    background-repeat: no-repeat;
+    background-image: url(images/partners/KiteWare_btn_img.png);
+}
+.platinum_sponsors_btn1:disabled{
+    opacity: 0.5; 
+}
+
+.platinum_sponsors_btn2{
+    width: 100%;
+    max-width: 240px;
+    height: 100%;
+    border-color: rgb(0, 170, 119);
+    max-height: 94px;
+    background-repeat: no-repeat;
+    background-image: url(images/partners/Ragatta_btn_img.png);
+}
+
+.platinum_sponsors_btn3{
+    width: 100%;
+    max-width: 240px;
+    height: 100%;
+    border-color: gray;
+    max-height: 94px;
+    background-repeat: no-repeat;
+    background-image: url(images/partners/LeeSara_btn_img.png);
+}
+.platinum_sponsors_btn3:disabled{
+    opacity: 0.5; 
+}
+
+.gold_sponsors{
+    display: grid;
+    grid-template-rows: 20% 80%;
+}
+.gold_sponsors_text{
+    font-size: 20px;
+    font-weight: 900;
+}
+.gold_sponsors_btns{
+    display: grid;
+    gap:2%;
+    grid-template-columns: 240px 240px 240px;
+}
+.gold_sponsors_btn1{
+    width: 100%;
+    max-width: 240px;
+    height: 100%;
+    border-color: gray;
+    max-height: 94px;
+    background-repeat: no-repeat;
+    background-image: url(images/partners/Oxien_btn_img.png);
+}
+.gold_sponsors_btn1:disabled{
+    opacity: 0.5; 
+}
+.gold_sponsors_btn2{
+    width: 100%;
+    max-width: 240px;
+    height: 100%;
+    border-color: gray;
+    max-height: 94px;
+    background-repeat: no-repeat;
+    background-image: url(images/partners/Butterfly_btn_img.png);
+}
+.gold_sponsors_btn2:disabled{
+    opacity: 0.5; 
+}
+
+.gold_sponsors_btn3{
+    width: 100%;
+    max-width: 240px;
+    height: 100%;
+    max-height: 94px;
+    border-color: gray;
+    background-repeat: no-repeat;
+    background-image: url(images/partners/nikeie_btn_img.png);
+}
+.gold_sponsors_btn3:disabled{
+    opacity: 0.5; 
+}
+.partners_full{
+    position: relative;
+    height: 400px;
+}
+.partners_lime_img{
+    height: 150px;
+    position: absolute;
+    right: 5%;
+    bottom: 0%;
+}

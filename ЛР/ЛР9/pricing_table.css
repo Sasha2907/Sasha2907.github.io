@@ -1,0 +1,114 @@
+.pricing_table{
+    background: url(images/topics/topics_bg.png);
+    width: 100%;
+    display: grid;
+    height: 900px;
+    grid-template-rows: 250px 80%;
+}
+.pricing_table_inf{
+    margin-left: 20%;
+    margin-right: 20%;
+    
+    display: grid;
+    gap: 10px;
+    align-content: center;
+    place-items: center;
+}
+.pricing_table_inf_img{
+    height: 50px;
+}
+.pricing_table_inf_h{
+    font-size: 30px;
+    font-weight: 800;
+}
+.pricing_table_inf_text{
+    text-align: center;
+    color:gray;
+    font-size: 14px;
+}
+.pricing_table_tickets{
+    display: grid;
+    gap: 30px;
+    grid-template-columns: 33% 33% 33%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.pricing_table_ticket1{
+    display: grid;
+    grid-template-rows: 150px;
+    background-color: white;
+    height: 600px;
+}
+.pricing_table_ticket1_inf{
+    background-color: rgb(0, 255, 0);
+    border-radius: 0 0 50% 50%;
+}
+.pricing_table_ticket_name{
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.pricing_table_ticket_inf1{
+    font-size: small;
+    color:white;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.pricing_table_ticket_price{
+    font-size: small;
+    text-align: center;
+    color: white;
+}
+.pricing_table_num{
+    font-size: 30px;
+    font-weight: 800;
+}
+.pricing_table_ticket_secs{
+    display: grid;
+    grid-template-rows: repeat(30px 6);
+    align-items: center;
+}
+.pricing_table_ticket_sec{
+    text-align: center;   
+}
+.pricing_table_ticket_btn_ob{
+    display: flex;
+    justify-content: center;
+}
+.pricing_table_ticket_btn{
+    background-color: red;
+    width: 140px;
+    height: 30px;
+    justify-content: center;
+    align-self: center;
+    color: white;
+    border: none;
+}
+.pricing_table_ticket_btn:hover{
+    transform: scale(1.1);
+    transform-origin: center center;
+}
+.pricing_table_ticket2{
+    display: grid;
+    grid-template-rows: 150px;
+    background-color: white;
+    box-shadow: 4px 4px red;
+    height: 600px;
+}
+.pricing_table_ticket2_inf{
+    background-color: red;
+    border-radius: 0 0 50% 50%;
+}
+
+.pricing_table_ticket3{
+    display: grid;
+    grid-template-rows: 150px;
+    background-color: white;
+    height: 600px;
+}
+.pricing_table_ticket3_inf{
+    background-color: purple;
+    border-radius: 0 0 50% 50%;
+}

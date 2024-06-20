@@ -1,0 +1,14 @@
+div.izo { 
+    background: url(Images/photo_2024-02-12_09-19-00.jpg);  
+    display: block;
+    width: 250px; 
+    height: 312px; 
+    float: left;
+    margin-left: 400px;
+    margin-top: 50px;
+    border-radius: 3%;
+    }
+    
+    div.izo:hover { 
+    background: url(Images/5a93e197506d9161d1a93721.png); 
+    }

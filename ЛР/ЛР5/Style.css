@@ -1,0 +1,42 @@
+.setka{
+    display: flex;
+    flex-wrap: wrap;
+    width: 1000px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.col-100{
+    width: 1000px;
+    text-align: center;
+    background-color: aqua;
+    height: 20px;
+
+}
+
+.col-50{
+    width: 500px;
+    text-align: center;
+    background-color: red;
+}
+.col-50 img{
+    width: 100%;
+}
+.col-25{
+    width: 250px;
+    text-align: center;
+    background-color: blue;
+    
+
+}
+.col-25 img{
+    width: 100%;
+}
+.col-75{
+    width: 750px;
+    text-align: center;
+    background-color: green;
+}
+.col-75 img{
+    width: 100%;
+}

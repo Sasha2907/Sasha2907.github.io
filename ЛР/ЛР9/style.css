@@ -1,0 +1,115 @@
+@import url(hero1.css);
+@import url(count_event.css);
+@import url(abuut_us.css);
+@import url(topics.css);
+@import url(schedule.css);
+@import url(our_gallery.css);
+@import url(pricing_table.css);
+@import url(testimonials.css);
+@import url(partners.css);
+@import url(blog_post.css);
+@import url(get_ticket.css);
+@import url(fotter.css);
+.part1{
+    height: 1000px;
+    min-height: 800px;
+    max-height: 1000px;
+}
+.background1{
+    position: relative;
+    margin-top: 0%;
+    background-image: url(images/background1.jpg);
+    height: 500px;
+}
+.menu_bar{
+    position: relative;
+    margin-left: 5%;
+    margin-right: 5%;
+    /*top: 20px;*/
+    display:grid;
+    grid-template-columns:30% 50% 10% 10%;
+    height: 80px;
+    align-items: center;
+}
+.logo{
+    display:grid;
+    grid-template-columns:10% 90%;
+}
+.logo1{
+    display:flex;
+    justify-content: flex-end;
+
+}
+.logo1_img{
+    height: 40px;
+    width: 40px;
+}
+.poisk_i_karzina{
+    display:grid;
+    grid-template-columns:20% 5px 47.5%;
+    /*margin-top: 15px;*/
+}
+.search_img{
+    height: 20px;
+    width: 20px;
+}
+.cart_img{
+    height: 20px;
+    width: 20px;
+}
+.menu_element{
+    display: flex;
+    column-gap: 5%;
+    /*margin-top: 15px;*/
+}
+.element1{
+    border: none;
+}
+.element1:hover{
+    border-radius: 20px;
+    border: 1px solid red;
+    cursor:pointer;
+}
+.element a{
+    border: none;
+    outline: none;
+    background: none;
+    color:white;
+}
+.logo_text{
+    font-size: 40px;
+    color: white;
+}
+.buy_ticket_btn{
+    /*margin-top: 15px;*/
+    height: 35px;
+    width: 150px;
+    background-color: red;
+    border: none;
+    color:white;
+}
+.buy_ticket_btn:hover{
+    transform: scale(1.1);
+    transform-origin: center center;
+}
+
+.element1{
+    background-color: purple;
+}
+#fixedButton {
+    position: fixed;
+    z-index: 100;
+    bottom: 4%;
+    right: 4%;
+    background-color: rgb(211, 211, 211, 50%) ;
+    border-radius: 100%;
+    border:none;
+    height: 70px;
+    width: 70px;
+    /* Дополнительные стили (цвет, размер, шрифт и т. д.) */
+}
+.for_button{
+    position: relative;
+}
+
+

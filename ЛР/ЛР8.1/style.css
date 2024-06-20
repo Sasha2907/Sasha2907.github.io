@@ -1,0 +1,142 @@
+.pole{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+button{
+    cursor: pointer;
+}
+.forma{
+    display:grid;
+    grid-template-columns: 3fr 1fr 1fr;
+    grid-template-rows:20px 20px 20px 20px 50px 50px 40px 80px 40px;
+}
+.nazv_tovara{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+}
+.kod_tovara{
+    grid-column-start: 1;
+    grid-row-start: 2;
+}
+.img_tovara{
+    grid-row-start: 3;
+    grid-row-end: 9;
+    grid-column-start: 1;
+
+}
+.img_tov{
+   
+    width: 100%;
+}
+.cena{
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 2;
+}
+.money{
+    grid-row-start: 3;
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+.nalichie{
+    color:green;
+    grid-row-start: 4;
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+.izbran{
+    grid-row-start: 5;
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+.schetchik{
+    grid-row-start: 6;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+.input_kol{
+    width: 40%;
+    height: 30px;
+    text-align: center;
+    background-color: orange;
+}
+.input{
+    width: 100%;
+    height: 30px;
+    text-align: center;
+    background-color: orange;
+    border: none;
+}
+.btn_bye{
+    grid-row-start: 6;
+    grid-column-start: 3;
+    grid-column-end:4;
+}
+.input_tel{
+    grid-row-start: 7;
+    grid-column-start: 2;
+    grid-column-end:4;
+}
+.fast_zak{
+    height: 20px;
+    width: 130px;
+    border: none;
+}
+.tel{
+    float: left;
+    width: 30%;
+}
+.mess{
+    display: flex;
+    grid-row-start: 8;
+    grid-column-start: 2;
+    grid-column-end:4;
+}
+.messs{
+    width: 50px;
+    height: 50px;
+}
+.proizv_text{
+    grid-row-start: 9;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    text-align: center;
+}
+.proizv_chel{
+    grid-row-start: 9;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    text-align: center;
+}
+@media screen and (max-width: 1055px) {
+.forma{
+    display: block;
+}
+.input_kol{
+    height: 50%;
+    width: 20%;
+}
+.schetchik{
+    height: 30px;
+}
+.btn_bye{
+    height: 40px;
+}
+.mess{
+    padding: 0;
+    margin: 0;
+
+}
+div {
+    font-size: 1.5rem;
+}
+}
+@media screen and (max-width: 360px) {
+    .mess{
+        padding: 0;
+        margin: 0;
+        flex-direction: column;
+        align-items: center;
+    }
+}

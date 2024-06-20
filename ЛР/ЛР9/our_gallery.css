@@ -1,0 +1,256 @@
+.our_gallery{
+    margin-top: 100px;
+    height: 1100px;
+    display: grid;
+    grid-template-rows: 200px 700px;
+}
+.our_gallery_inf{
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 5%;
+    display: grid;
+    gap: 10px;
+    align-content: center;
+    place-items: center;
+}
+.our_gallery_inf_img{
+    height: 50px;
+}
+.our_gallery_inf_h{
+    font-size: 30px;
+    font-weight: 800;
+}
+.our_gallery_inf_text{
+    text-align: center;
+    color:gray;
+    font-size: 14px;
+}
+.our_gallery_cards{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.our_gallery_cards_col1{
+    display: grid;
+    grid-template-rows: 305px 60%;
+}
+.our_gallery_card_conference{
+    position: relative;
+    margin: 10px;
+}
+.our_gallery_card1_img{
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+    overflow: hidden;
+    padding: 5px;
+    max-height: 300px;
+}
+.our_gallery_card1_img:hover{
+    transform: scale(1.1);
+    transform-origin: center center;
+}
+.our_gallery_card1_data{
+    position: absolute;
+    z-index: 100;
+    display: flex;
+    /*top:250px;
+    left: 30px;*/
+    bottom:2%;
+    left:5%;
+    color:red;
+    
+}
+.our_gallery_card1_name{
+    position: absolute;
+    z-index: 100;
+    /*left: 30px;
+    top:220px;*/
+    bottom:15%;
+    left:5%;
+    color:white;
+    font-size: large;
+    font-weight: 600;
+}
+.our_gallery_card_data_img{
+    height: 20px;
+    
+}
+
+
+
+.our_gallery_card_presentation{
+    position: relative;
+    margin: 10px;
+}
+.our_gallery_card2_img{
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+    padding: 5px;
+    max-height: 460px;
+}
+.our_gallery_card2_img:hover{
+    transform: scale(1.1);
+    transform-origin: center center;
+}
+.our_gallery_card2_data{
+    position: absolute;
+    z-index: 100;
+    display: flex;
+    top:420px;
+    left: 30px;
+    color:red;  
+}
+.our_gallery_card2_name{
+    position: absolute;
+    z-index: 100;
+    left: 30px;
+    top:390px;
+    color:white;
+    font-size: large;
+    font-weight: 600;
+}
+
+
+.our_gallery_cards_col2{
+    display: grid;
+    grid-template-rows: 70% 30%;
+}
+.our_gallery_card_meetup{
+    position: relative;
+    margin: 10px;
+}
+.our_gallery_card3_img{
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+    padding: 5px;
+    max-height: 480px;
+}
+.our_gallery_card3_img:hover{
+    transform: scale(1.1);
+    transform-origin: center center;
+}
+.our_gallery_card3_data{
+    position: absolute;
+    z-index: 100;
+    display: flex;
+    top:440px;
+    left: 30px;
+    color:red;  
+}
+.our_gallery_card3_name{
+    position: absolute;
+    z-index: 100;
+    left: 30px;
+    top:410px;
+    color:white;
+    font-size: large;
+    font-weight: 600;
+}
+
+.our_gallery_card_press{
+    position: relative;
+    margin: 10px;
+}
+.our_gallery_card4_img{
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+    padding: 5px;
+    max-height: 300px;
+}
+.our_gallery_card4_img:hover{
+    transform: scale(1.1);
+    transform-origin: center center;
+}
+.our_gallery_card4_data{
+    position: absolute;
+    z-index: 100;
+    display: flex;
+    top:240px;
+    left: 30px;
+    color:red;  
+}
+.our_gallery_card4_name{
+    position: absolute;
+    z-index: 100;
+    left: 30px;
+    top:210px;
+    color:white;
+    font-size: large;
+    font-weight: 600;
+}
+
+
+.our_gallery_cards_col3{
+    display: grid;
+    grid-template-rows: 60% 40%;
+}
+.our_gallery_card_workshop{
+    position: relative;
+    margin: 10px;
+}
+.our_gallery_card5_img{
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+    padding: 5px;
+    max-height: 410px;
+}
+.our_gallery_card5_img:hover{
+    transform: scale(1.1);
+    transform-origin: center center;
+}
+.our_gallery_card5_data{
+    position: absolute;
+    z-index: 100;
+    display: flex;
+    top:370px;
+    left: 30px;
+    color:red;  
+}
+.our_gallery_card5_name{
+    position: absolute;
+    z-index: 100;
+    left: 30px;
+    top:340px;
+    color:white;
+    font-size: large;
+    font-weight: 600;
+}
+
+.our_gallery_card_event{
+    position: relative;
+    margin: 10px;
+}
+.our_gallery_card6_img{
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+    padding: 5px;
+    max-height: 350px;
+}
+.our_gallery_card6_img:hover{
+    transform: scale(1.1);
+    transform-origin: center center;
+}
+.our_gallery_card6_data{
+    position: absolute;
+    z-index: 100;
+    display: flex;
+    top:310px;
+    left: 30px;
+    color:red;  
+}
+.our_gallery_card6_name{
+    position: absolute;
+    z-index: 100;
+    left: 30px;
+    top:280px;
+    color:white;
+    font-size: large;
+    font-weight: 600;
+}

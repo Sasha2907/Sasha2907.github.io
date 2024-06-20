@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <link rel="stylesheet" type="text/css" href="styleForIndex1.css">
+        <meta charset="utf-8">
+<title>
+    Опрос
+</title>
+    </head>
+    <body>
+        <h1 class="opros">Опрос</h1>
+        <form>
+            <label>Введите Имя</label>
+            <input type="text">
+        </form>
+        <br>
+        <form>
+            <label>Введите Фамилию</label>
+            <input type="text">
+        </form>
+        <br>
+        <form>
+            <label>какая картинка вам больне нравится?</label><br>
+            <img src="Images/Пони.jpg" class="picture" alt = '111'>
+            <img src="Images/Игрушки.JPG" class="picture" alt = '111'>
+            <img src="Images/Автобус.JPG" class="picture" alt = '111'><br><br><br><br><br><br>
+            <input type="radio" name="question" style="margin-left: 40px;">
+            <input type="radio" name="question" style="margin-left: 85px;">
+            <input type="radio" name="question" style="margin-left: 83px;">
+        </form>
+        <form>
+            <label>Какой язык вы хотите изучать?</label>
+            <br>
+            <label>
+              <input type="checkbox" name="languages" value="HTML">
+              Хочу изучать HTML
+            </label>
+            <br>
+            <label>
+              <input type="checkbox" name="languages" value="CSS">
+              Хочу изучать CSS
+            </label>
+            <br>
+            <label>
+              <input type="checkbox" name="languages" value="JS">
+              Хочу изучать JS
+            </label>
+        </form>
+        <div>
+            <form>
+            <label>готовы сдать тест?</label>
+            <select id="Да/Нет" name="Да/Нет">
+                <option value="Нет">НЕТ</option>
+                <option value="Да">ДА</option>
+              </select>
+              <br>
+              <button type="button">Сдать</button>
+            </form>
+            <a href="/Index.html">Назад</a>
+        </div>
+    </body>

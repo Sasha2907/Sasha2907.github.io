@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script>
+        function Pokaz_den() {
+      var currentDate = new Date();
+      var dayOfMonth = currentDate.getDate();
+      alert("Текущее число месяца: " + dayOfMonth);
+        }
+    </script>
+    <script src="1.js"></script>
+</head>
+<body>
+    <button onclick="Pokaz_den()">Показать год</button>
+
+    <button onclick="showName()">Показать имя и фамилию</button>
+    <p id="demo"></p>
+    <script>
+        function showName() {
+          var i = 0;
+          var text = "";
+          n=14
+          do {
+            text += i+" Петюк александр <br>";
+            i++;
+          } while (i < (n+5));
+          
+          document.getElementById("demo").innerHTML = text;
+        }
+        </script>
+
+    <button onclick="processArray()">Обработать массив</button>
+    <p id="originalArray"></p>
+    <p id="sumEvenElements"></p>
+    <p id="sortedArray"></p>
+
+    <script>
+        function processArray() {
+          var arr = [6, 3, 8, 5, 2, 7]; 
+          var sumEven = 0;
+
+          for(var i = 0; i < arr.length; i++) { // сумма чет эл
+            if(arr[i] % 2 == 0) {
+              sumEven += arr[i];
+            }
+          }
+          
+          // Сорт мас
+          var sortedArr = arr.slice().sort(function(a, b) { return b - a; });
+        
+          // Вывод
+          document.getElementById("originalArray").innerHTML = "Исходный массив: " + arr;
+          document.getElementById("sumEvenElements").innerHTML = "Сумма четных элементов: " + sumEven;
+          document.getElementById("sortedArray").innerHTML = "Отсортированный массив: " + sortedArr;
+        }
+        </script>
+
+    
+    <button onclick="calculate()">Рассчитать</button>
+    <p id="result"></p>
+
+
+    <p id="output"></p>
+    <button onclick="manipulateStrings()">Выполнить операции</button>
+    <script>
+        function manipulateStrings() {
+            let S1 = "Я люблю Беларусь";
+            let S2 = "Я учусь в Политехническом колледже";
+
+            let lengthS1 = S1.length;
+
+            S2 = S2.replace("учусь", "");
+
+            S1 = S1.replace(/ю/g, "*");
+
+            // Вывести результаты в текст документа
+            document.getElementById("output").innerHTML = "Длина строки S1: " + lengthS1 + "<br>" +
+                "Строка S2 после удаления подстроки: " + S2 + "<br>" +
+                "Строка S1 после замены: " + S1;
+        }
+    </script>
+</body>
+</html>

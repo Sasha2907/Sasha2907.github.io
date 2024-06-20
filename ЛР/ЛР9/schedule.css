@@ -1,0 +1,60 @@
+.schedule{
+    height: 800px;
+    display: grid;
+    grid-template-rows: 30% 70%;
+}
+.schedule_inf{
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 5%;
+    display: grid;
+    gap: 10px;
+    align-content: center;
+    place-items: center;
+}
+.schedule_inf_img{
+    height: 50px;
+}
+.schedule_inf_h{
+    font-size: 30px;
+    font-weight: 800;
+}
+.schedule_inf_text{
+    text-align: center;
+    color:gray;
+    font-size: 14px;
+}
+.schedule_cards_pic{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-left: 5%;
+    margin-right: 5%;
+
+}
+.schedule_img{
+    width: 100%;
+}
+.schedule_cards{
+    display: grid;
+    grid-template-rows: repeat(16% 6);
+}
+.schedule_card{
+    margin: 10px;
+    display: grid;
+    align-items: center;
+    padding: 10px;
+    grid-template-columns: auto auto auto;
+    box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 30px 0 rgba(0, 0, 0, 0.19);
+}
+.schedule_card_data{
+    font-weight: 700;
+}
+.schedule_card_time{
+    text-align: center;
+    color: gray;
+    font-size: small;
+}
+.schedule_card_name{
+    text-align: right;
+    color:red;
+}

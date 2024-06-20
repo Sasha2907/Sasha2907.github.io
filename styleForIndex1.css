@@ -1,0 +1,18 @@
+.picture{
+    width:100px; 
+    height:100px;
+    float:left
+}
+html{
+    background-color: black;
+    color:white;
+    font-family: 'Roboto',sans-serif;
+}
+.opros{
+    text-align: center;
+}
+@font-face {
+    font-weight: 400; /* Соответствует значению normal */
+    font-family: Roboto;
+    src: url("fonts/Roboto/Roboto-Thin.ttf");
+}

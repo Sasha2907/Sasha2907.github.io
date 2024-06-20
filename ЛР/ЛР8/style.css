@@ -1,0 +1,141 @@
+.blok{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+button{
+    cursor: pointer;
+}
+button:hover{
+    scale: 1.1;
+}
+
+.forma{
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows:repeat(6,auto)
+}
+
+/*Шапка*/
+
+.text_shapka{
+    grid-column-start: 1;
+    background-color: rgb(75, 75, 255);
+    color: white;
+    align-content: center;
+    padding-left: 5%;
+    padding-top: 15px;
+}
+
+.cross{
+    grid-column-start: 2;
+    background-color: rgb(75, 75, 255); 
+}
+
+/*Ввод имени*/
+
+.input_name{
+    grid-row-start: 2;
+    padding-left: 10px;
+    
+}
+
+.cross_pic{
+    height: 50px;
+    width: 50px;
+    float: right;
+}
+
+.red_text{
+    color:red
+}
+
+.input{
+    border: 1px solid rgb(255, 73, 73);
+}
+/*Ввод телефона*/
+.input_tel{
+    grid-row-start: 3;
+    padding-left: 10px;
+}
+/*Ввод почты*/
+.input_mail{
+    grid-row-start: 4;
+    padding-left: 10px;
+}
+
+.text_zvezd{
+    grid-row-start: 5;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    padding-left: 10px;
+    font-size: 14px;
+}
+/*Примечание*/
+.primechanie{
+    grid-row-start: 2;
+    grid-row-end:4;
+    grid-column-start: 2;
+}
+.input_prim{
+    height: 50px;
+    width: 80%;
+}
+
+/*Отправка кнопка*/
+
+.otpr_zayavky{
+    grid-row-start: 6;
+    padding-left: 10px;
+}
+
+.otpr{
+    border: 2px solid transparent;
+    border-radius: 99em;
+    background-color: orange;
+    width: 300px;
+    height: 40px;
+    color: white;
+
+}
+/*Кнопка закрыть*/
+.close_button{
+    grid-row-start: 6;
+    grid-column-start: 2;
+}
+.close_btn{
+    background-color: gray;
+    border: 2px solid transparent;
+    border-radius: 99em;
+    width: 100px;
+    height: 40px;
+    margin-right: 50px;
+    float: right;
+}
+@media screen and (max-width: 1024px) {
+    div {
+        font-size: 0.9rem;
+    }
+    .forma{
+        display: grid;
+        grid-template-columns:1fr;
+        grid-template-rows: repeat(9,auto);
+    }
+    .primechanie{
+        grid-row-start: 6;
+        grid-column-start: 1;
+        grid-row-end: 7;
+        padding-left: 10px;
+    }
+    .close_button{
+        grid-row-start: 6;
+        grid-column-start: 1;
+        display: none;
+    }
+    .otpr_zayavky{
+        grid-row-start: 8;
+        grid-row-end: 9;
+        grid-column-start: 1;
+        padding-left: 10px;
+        padding-top: 5px;
+    }
+}

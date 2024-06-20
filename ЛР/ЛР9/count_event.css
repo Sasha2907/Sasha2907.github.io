@@ -1,0 +1,114 @@
+.count_event{
+    margin-left: 5%;
+    margin-right: 5%;
+    display: grid;
+    grid-template-columns: 40% 60%;
+}
+.count_event1{
+    display:grid;
+    height: 200px;
+    grid-template-rows: 40% 60%;
+}
+.count_event_pic{
+    width: auto;
+}
+.count_event_img{
+    width: 200px;
+}
+.count_event_text{
+    font-size: 30px;
+    font-weight: 700;
+}
+.count_event2{
+    display: grid;
+    grid-template-columns:  20% 20% 20% 20% 20%;    
+}
+.count_month{
+    display:grid;
+    grid-template-rows: 40% 60%;
+}
+.count_month_num{
+    font-size: 35px;
+    font-weight: 700;
+    align-self: end;
+    text-align: center;
+    color:red;
+}
+.count_month_text{
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    color:red;
+}
+
+.count_days{
+    display:grid;
+    grid-template-rows: 40% 60%;
+}
+.count_days_num{
+    font-size: 35px;
+    font-weight: 700;
+    align-self: end;
+    text-align: center;
+    color:rgb(255, 234, 0);
+}
+.count_days_text{
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    color:rgb(255, 234, 0);
+}
+
+.count_hours{
+    display:grid;
+    grid-template-rows: 40% 60%;
+}
+.count_hours_num{
+    font-size: 35px;
+    font-weight: 700;
+    align-self: end;
+    text-align: center;
+    color:green;
+}
+.count_hours_text{
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    color:green;
+}
+
+.count_min{
+    display:grid;
+    grid-template-rows: 40% 60%;
+}
+.count_min_num{
+    font-size: 35px;
+    font-weight: 700;
+    align-self: end;
+    text-align: center;
+    color:purple;
+}
+.count_min_text{
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    color:purple;
+}
+
+.count_sec{
+    display:grid;
+    grid-template-rows: 40% 60%;
+}
+.count_sec_num{
+    font-size: 35px;
+    font-weight: 700;
+    align-self: end;
+    text-align: center;
+    color:darkblue;
+}
+.count_sec_text{
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    color:darkblue;
+}
