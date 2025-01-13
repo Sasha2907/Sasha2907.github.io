@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form Validation</title>
+  <link rel="stylesheet" href="sing_in.css">
+</head>
+<body>
+  <h1>Форма с валидацией</h1>
+  <form id="userForm">
+    <!-- Текстовое поле с HTML5 валидацией -->
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required placeholder="Введите ваш email">
+    
+    <!-- Поле с JS-валидацией -->
+    <label for="username">Имя пользователя:</label>
+    <input type="text" id="username" name="username" placeholder="Введите имя пользователя">
+    
+    <!-- Поле с регулярным выражением -->
+    <label for="phone">Телефон:</label>
+    <input type="tel" id="phone" name="phone" placeholder="Введите номер телефона">
+    
+    <!-- Выпадающий список с валидацией через JS -->
+    <label for="country">Страна:</label>
+    <select id="country" name="country" required>
+      <option value="">Выберите страну</option>
+      <option value="Россия">Россия</option>
+      <option value="США">США</option>
+      <option value="Германия">Германия</option>
+    </select>
+
+    <!-- Кнопки -->
+    <button type="button" id="submitButton">Отправить</button>
+  </form>
+
+  <div id="output"></div>
+
+  <script src="sing_in.js"></script>
+</body>
+</html>

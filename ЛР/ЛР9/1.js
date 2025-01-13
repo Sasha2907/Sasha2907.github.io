@@ -22,7 +22,7 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     });
 });
 
-
+/*
 let day = new Date().getDay();
 switch (day) {
     case 0:
@@ -78,3 +78,99 @@ for (let i = 0; i < 5; i++) {
     }
     console.log(i);
   }
+*/
+
+
+//Событие мыши
+
+const mouseBox = document.getElementById("mouseBox");
+
+mouseBox.addEventListener("click", () => {
+  console.log("Box clicked!");
+});
+
+mouseBox.addEventListener("mouseenter", () => {
+  console.log("Mouse entered the box.");
+});
+
+mouseBox.addEventListener("mouseleave", () => {
+  console.log("Mouse left the box.");
+});
+
+// Событие клавиватуры
+
+const keyboardInput = document.getElementById("keyboardInput");
+
+keyboardInput.addEventListener("keydown", (event) => {
+  console.log(`Key pressed: ${event.key}`);
+});
+
+keyboardInput.addEventListener("keyup", () => {
+  console.log("Key released!");
+});
+
+// Событие Drag & Drop
+
+const dragItem = document.getElementById("dragItem");
+
+dragItem.addEventListener("dragstart", () => {
+  console.log("Drag started.");
+});
+
+dragItem.addEventListener("dragend", () => {
+  console.log("Drag ended.");
+});
+
+// Событие указателя
+
+const pointerBox = document.getElementById("pointerBox");
+
+pointerBox.addEventListener("pointerdown", () => {
+  console.log("Pointer down!");
+});
+
+pointerBox.addEventListener("pointermove", () => {
+  console.log("Pointer moving!");
+});
+
+pointerBox.addEventListener("pointerup", () => {
+  console.log("Pointer up!");
+});
+
+// События полосы прокрутки
+
+window.addEventListener("scroll", () => {
+    console.log(`Scroll position: ${window.scrollY}`);
+  });
+
+// События сенсорных экранов
+
+const touchBox = document.getElementById("touchBox");
+
+touchBox.addEventListener("touchstart", () => {
+  console.log("Touch started!");
+});
+
+touchBox.addEventListener("touchmove", () => {
+  console.log("Touch moving!");
+});
+
+touchBox.addEventListener("touchend", () => {
+  console.log("Touch ended!");
+});
+
+// События с таймером
+
+let timerId;
+
+startTimer.addEventListener("click", () => {
+  let count = 0;
+  timerId = setInterval(() => {
+    console.log(`Timer: ${++count}`);
+  }, 1000);
+});
+
+stopTimer.addEventListener("click", () => {
+  clearInterval(timerId);
+  console.log("Timer stopped.");
+});

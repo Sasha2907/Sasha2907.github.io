@@ -6,7 +6,8 @@
         <link rel="stylesheet" type="text/css" href="style.css">
     </head>
     <body>
-        <div class="part1" id="home">
+        
+        <div class="part1" id="home" >
             <div class="background1">
                 <div class="menu_bar">
                     <div class="logo">
@@ -21,7 +22,7 @@
                     <div class="menu">
                         <div class="menu_element">
                             <div class="element">
-                                <a href="#home">Home</a>
+                                <a href="/sing_in.html">Войти</a>
                             </div>
                             <div class="element">
                                 <a href="#element">Pages</a>
@@ -53,19 +54,20 @@
                         </div>
                     </div>
                     <div class="buy_ticket">
-                            <button class="buy_ticket_btn">BUY TICKET</button>
+                            <button class="buy_ticket_btn" id="mouseBox">BUY TICKET</button>
                     </div>
                 </div>        
             </div>
-                <div class="hero">
+                <div class="hero" id="pointerBox">
                     <div class="information1">
                         <div class="date">
                             <div class="data_img">
-                                <img src="images/data_img.png"class="data_img">
+                                <img src="images/data_img.png" class="data_img">
                             </div>
                             <div class="data_text">
                                 24-28 DESEMBTR,2022
                             </div>
+                            <input type="text" id="keyboardInput" placeholder="напечатайте..." />
                         </div>
 
                         <div class="title1">
@@ -80,11 +82,11 @@
 
                         <div class="buttons1">
                             <div class="register_now">
-                                <button class="register_now_btn">REGISTER NOW</button>
+                                <button class="register_now_btn" >REGISTER NOW</button>
                             </div>
                             <div class="play_video_btns">
                                 <div class="play_vidio_btn">
-                                    <button class="play_vidio_btn_" onclick="myFunction()"><img src="images/play_btn_img.png" class="play_vidio_btn_img"></button>
+                                    <button class="play_vidio_btn_"  onclick="myFunction()"><img src="images/play_btn_img.png" class="play_vidio_btn_img"></button>
                                 </div>
                             </div>
                         </div>   
@@ -92,22 +94,22 @@
 
                         <div class="arrows">
                             <div class="arrow">
-                                <button class="arrow1_btn"><img src="images/arrow1.png" class="arrow1"></button>
+                                <button class="arrow1_btn"><img src="images/arrow1.png" class="arrow1" id="startTimer"></button>
                             </div>
                             <div class="arrow">
-                                <button class="arrow1_btn"><img src="images/arrow2.png" class="arrow1"></button>
+                                <button class="arrow1_btn"><img src="images/arrow2.png" class="arrow1" id="stopTimer"></button>
                             </div>
                         </div>
                     </div>
                 <div class="hero_img1">
-                    <img src="images/hero1_img.png"class="hero_img">
+                    <img src="images/hero1_img.png"class="hero_img" id="dragItem">
                 </div>
             </div>
         </div>
-        <div class="count_event" id="events">
+        <div class="count_event" id="events"  >
             <div class="count_event1">
                 <div class="count_event_pic">
-                    <img src="images/count_event/count_event_img.png" class="count_event_img">
+                    <img src="images/count_event/count_event_img.png" class="count_event_img" id="touchBox">
                 </div>
                 <div class="count_event_text">
                     COUNT EVENT SECOND UNTIL THE EVENT
