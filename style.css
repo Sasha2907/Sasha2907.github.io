@@ -141,7 +141,7 @@
     .links{
         display: flex;
         justify-content: space-around;
-        margin: 20px 20% 0 20%;
+        margin: 20px 10% 0 10%;
     }
     .links a{
         color: white;
