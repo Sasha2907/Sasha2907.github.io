@@ -140,4 +140,54 @@ function setCookie(name, value, days) {
       document.getElementById("output").innerHTML = `<p>Данные в cookies отсутствуют.</p>`;
     }
   });
-  
+  // Сохранение данных формы в Local Storage
+document.getElementById("submitButton").addEventListener("click", () => {
+  const email = document.getElementById("email").value.trim();
+  const username = document.getElementById("username").value.trim();
+  const phone = document.getElementById("phone").value.trim();
+  const country = document.getElementById("country").value;
+
+  // Проверка на заполненность всех полей
+  if (!email || !username || !phone || !country) {
+    document.getElementById("output").innerHTML = `<p style="color: red;">Пожалуйста, заполните все поля!</p>`;
+    return;
+  }
+
+  // Создание объекта с данными формы
+  const formData = {
+    email,
+    username,
+    phone,
+    country,
+  };
+
+  // Сохранение данных в Local Storage
+  localStorage.setItem("formData", JSON.stringify(formData));
+
+  document.getElementById("output").innerHTML = `<p style="color: green;">Данные успешно сохранены в Local Storage!</p>`;
+});
+
+// Загрузка данных из Local Storage при загрузке страницы
+window.addEventListener("DOMContentLoaded", () => {
+  const savedData = localStorage.getItem("formData");
+  if (savedData) {
+    const { email, username, phone, country } = JSON.parse(savedData);
+
+    document.getElementById("email").value = email;
+    document.getElementById("username").value = username;
+    document.getElementById("phone").value = phone;
+    document.getElementById("country").value = country;
+
+    document.getElementById("output").innerHTML = `
+      <p>Данные загружены из Local Storage:</p>
+      <ul>
+        <li>Email: ${email}</li>
+        <li>Имя пользователя: ${username}</li>
+        <li>Телефон: ${phone}</li>
+        <li>Страна: ${country}</li>
+      </ul>
+    `;
+  } else {
+    document.getElementById("output").innerHTML = `<p>Данные в Local Storage отсутствуют.</p>`;
+  }
+});
